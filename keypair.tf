@@ -1,4 +1,0 @@
-resource "aws_key_pair" "asset" {
-  key_name   = "asset-test"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7tShvn8XibFTABT4DlliMk7Ep2vnq5ZUBsTrkK/GlXkWk2OpfjwDpNUF3LY1/rzBNUJoGlY2SbWjESsXzS5VN4VBt1HX/FYYSdAN5/TOlbZNmDkM/9jlLEY7Z2Biov5SV9G6pq9ZXZVibWZdaZ5lwUwImCAdOScWHUSyvipeetTJ1pUTj21vWKTbohifgzY1TQCldRCIeEoLQPV+E7kp2zaO+MNZW8Db39em8/UvkEkPlQXOifN+3lmXw4B8W1Hdq8on6fveEsVObKF2qImEfdTYHfxWy8rsgiugJLl6UDe+zZ9S96zcWZcWblzqJzVTKFL+l0vx/9uhEBJ9gs7icFHc5YG6ij/abygkdxunw8GRJPKP92UzRB5bxd6FXjlPOuHglJMTYOXkrIBcDIC/Ufue/zM80CMDuWiHaVs4i0wTGcQS/iAWMc0m/CKCxaF+R/7xlY+wKk1fBKD9d5rMOkw5QFipXpJc+lkk8WMfytwtNMQI7l9g8UoSE/3zRMZk= assetrb@MacBook-Pro-Asset.local"
-}
