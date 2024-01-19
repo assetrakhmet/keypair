@@ -1,10 +1,12 @@
+provider "aws" {
+  region = "us-west-2"  # Specify your desired AWS region
+}
+
 resource "aws_instance" "example" {
-     ami = data.aws_ami.windows.id
-     instance_type = "t2.micro"
-     availability_zone = var.availability_zone
+  ami           = "ami-0c55b159cbfafe1f0"  # Specify the AMI ID for your desired OS
+  instance_type = "t2.micro"  # Specify the instance type
 
-lifecycle {
-     ignore_changes = [ami]
-     }
- }
-
+  tags = {
+    Name = "example-instance"
+  }
+}
