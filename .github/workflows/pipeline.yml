@@ -31,7 +31,12 @@ jobs:
 
     - name: Format Terraform code
       run: terraform fmt -check -recursive
+    
+    - name: Terrafofm plan 
+      run:  terraform plan
 
+    - name: Tarraform Graph
+      run:  terraform graph
  
     - name: Terraform Apply 
       run: terraform apply -destroy
