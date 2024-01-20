@@ -3,7 +3,6 @@ name: Terraform Workflow
 on:
   push:
     branches:
-      - main
       - test 
 jobs:
   terraform:
