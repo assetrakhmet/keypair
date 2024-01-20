@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+      - test 
 jobs:
   terraform:
     runs-on: ubuntu-latest
@@ -34,9 +34,3 @@ jobs:
     
     - name: Terrafofm plan 
       run:  terraform plan
-
-    - name: Tarraform Graph
-      run:  terraform graph
- 
-    - name: Terraform Apply 
-      run: terraform apply -destroy
